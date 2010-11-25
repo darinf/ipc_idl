@@ -1,0 +1,3 @@
+interface RenderProcess {
+  void SetNextPageID(in int32 next_page_id);
+};

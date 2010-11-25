@@ -1,0 +1,5 @@
+interface RenderView {
+  void Resize(in gfx::Size new_size, in gfx::Rect resizer_rect);
+  void WasHidden();
+  void WasRestored(in bool needs_repainting);
+};

@@ -1,0 +1,6 @@
+interface RenderViewHost {
+  [sync] void CreateWindow(in RenderViewHost_CreateWindow_Params params,
+                           out int route_id,
+                           out int64 cloned_session_storage_namespace_id);
+  [sync] void RunModal();
+};
